@@ -1,0 +1,33 @@
+body{
+    padding: 15px 50px;
+}
+
+nav {
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+body > header{
+    color:white;
+}
+
+#menu > a {
+    margin-left: 30px;
+}
+body > div > main > section > h1{
+    margin: 20px 150px;
+   
+}
+body > div > main > section p{
+    margin: 20px 100px;
+    
+
+}
+body > div > main > section > div > img{
+    margin: 20px 150px;
+}
+body > div > main > section:nth-child(3) > form{
+    text-align: right;
+    margin-right: 100px;
+}
