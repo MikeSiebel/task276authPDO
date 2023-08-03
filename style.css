@@ -31,3 +31,15 @@ body > div > main > section:nth-child(3) > form{
     text-align: right;
     margin-right: 100px;
 }
+
+body > nav{
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.alink_vk{
+    margin: 40px;
+    font-size: 20px;
+    text-align: center;
+}

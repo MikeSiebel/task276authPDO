@@ -34,7 +34,9 @@ function auth()
             
             header('Location: dashboard.php');
         } else {
-            echo "Wrong password";
+            echo "Логин или пароль не найдены";
+            $log = date('Y-m-d H:i:s') . ' Логин или пароль не найдены';
+            file_put_contents('log.txt', $log . PHP_EOL, FILE_APPEND);
         }    
     }
 }

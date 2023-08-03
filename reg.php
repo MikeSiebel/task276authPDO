@@ -27,7 +27,7 @@ $stmt = $db->prepare($sql);
 
 $stmt->execute($user);
 
-$stmt->closeCursor($user);
+$stmt->closeCursor();
 
 //$db = null;
 

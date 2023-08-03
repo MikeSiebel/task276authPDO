@@ -51,9 +51,10 @@ include_once 'pdo.php';
                 </form>
             </section>
             <section>
-                <form class="vk_register" action="" method="">
+                <!--<a href="vk.php">Авторизоваться через VK</a>-->
+                <form class="vk_register" action="vk.php" method="">
                     <legend>
-                        <h3>Авторизация через VK</h3>
+                        <h3>Авторизоваться через VK</h3>
                     </legend>                    
                     <button type="submit">Send VK</button> 
                 </form>
